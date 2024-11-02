@@ -24,5 +24,11 @@ let package = Package(
                     url: "https://github.com/kasem-sm/TextureSPM/releases/download/3.2.0.2/AsyncDisplayKit.xcframework.zip",
                     checksum: "0112abecbfc48d7770fdddc6caa0f965649c7b120e8a0fa7708326ac3aaae154"
                 )
+    ],
+    cxxSettings: [
+        .define("AS_USE_VIDEO", to: "1")
+    ],
+    swiftSettings: [
+        .define("AS_USE_VIDEO")
     ]
 )
