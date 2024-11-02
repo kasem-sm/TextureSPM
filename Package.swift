@@ -21,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
                     name: "AsyncDisplayKit",
-                    url: "https://github.com/kasem-sm/TextureSPM/releases/download/3.2.0/AsyncDisplayKit.xcframework.zip",
+                    url: "https://github.com/kasem-sm/TextureSPM/releases/download/3.2.0.2/AsyncDisplayKit.xcframework.zip",
                     checksum: "9a142a5cd0fd6a07a9f494deeb2803833724d66faad5687f978645585bc0ef4a"
                 )
     ]
