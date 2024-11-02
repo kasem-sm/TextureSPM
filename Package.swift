@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
                     name: "AsyncDisplayKit",
                     url: "https://github.com/kasem-sm/TextureSPM/releases/download/3.2.0.2/AsyncDisplayKit.xcframework.zip",
-                    checksum: "9a142a5cd0fd6a07a9f494deeb2803833724d66faad5687f978645585bc0ef4a"
+                    checksum: "0112abecbfc48d7770fdddc6caa0f965649c7b120e8a0fa7708326ac3aaae154"
                 )
     ]
 )
